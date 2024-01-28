@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Library Management</h1>
+
+<button onclick="generateLibrary()">Generate Library Data</button>
+<button onclick="calculateAverageDays()">Calculate Average Days</button>
+
+<table id="libraryTable">
+  <thead>
+    <tr>
+      <th>Member</th>
+      <th>Book</th>
+      <th>Checkout Date</th>
+      <th>Return Date</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<p id="averageDays"></p>
+
+<script src="app.js"></script>
+
+</body>
+</html>
